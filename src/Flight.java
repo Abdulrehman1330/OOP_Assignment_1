@@ -113,6 +113,7 @@ public class Flight {
                 stringBuilder.append("\n");
             }
         }
+        stringBuilder.append("There are currently ").append(currentPassengers).append(" passengers in this Airplane");
         return stringBuilder.toString();
     }
 
